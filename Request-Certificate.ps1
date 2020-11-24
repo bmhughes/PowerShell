@@ -328,10 +328,7 @@ CertificateTemplate = "$TemplateName"
         Write-Debug "Parameter values: CN = $CN, TemplateName = $TemplateName, CAName = $CAName"
     }
 
-    Write-Debug "Inf-File: $file"
-
-    Write-Output $file
-    exit
+    Write-Output "Inf-File: $file"
 
     try	{
         # Create temp files
